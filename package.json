@@ -5,7 +5,6 @@
   "description": "Examples of writing multiple components in a single `.vue` file.",
   "main": "index.js",
   "scripts": {
-    "bootstrap": "lerna bootstrap",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,11 +20,9 @@
   "homepage": "https://github.com/HugoDF/vue-multiple-components-in-sfc#readme",
   "workspaces": [
     "01-render-function",
-    "02-global-component-string",
+    "02-global-component-string-template",
     "03-string-template",
     "04-jsx"
   ],
-  "devDependencies": {
-    "lerna": "^3.16.4"
-  }
+  "devDependencies": {}
 }
