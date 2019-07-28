@@ -5,6 +5,7 @@
   "description": "Examples of writing multiple components in a single `.vue` file.",
   "main": "index.js",
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -5,16 +5,17 @@
 See [App.vue](./src/App.vue).
 
 ## Project setup
-```
-npm install
-```
+
+Install dependencies from the root of the repository using `yarn bootstrap` or run `yarn` here.
 
 ### Compiles and hot-reloads for development
+
 ```
-npm run serve
+yarn serve
 ```
 
 ### Compiles and minifies for production
+
 ```
-npm run build
+yarn build
 ```
