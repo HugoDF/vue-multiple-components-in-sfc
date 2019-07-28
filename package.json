@@ -1,0 +1,31 @@
+{
+  "name": "vue-multiple-components-in-sfc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Examples of writing multiple components in a single `.vue` file.",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoDF/vue-multiple-components-in-sfc.git"
+  },
+  "keywords": [],
+  "author": "Hugo Di Francesco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HugoDF/vue-multiple-components-in-sfc/issues"
+  },
+  "homepage": "https://github.com/HugoDF/vue-multiple-components-in-sfc#readme",
+  "workspaces": [
+    "01-render-function",
+    "02-global-component-string",
+    "03-string-template",
+    "04-jsx"
+  ],
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
+}

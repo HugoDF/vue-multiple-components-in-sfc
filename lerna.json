@@ -1,0 +1,11 @@
+{
+  "packages": [
+    "01-render-function",
+    "02-global-component-string",
+    "03-string-template",
+    "04-jsx"
+  ],
+  "version": "0.0.0",
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}
